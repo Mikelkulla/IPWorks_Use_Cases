@@ -1,4 +1,4 @@
-# Case 1: TCP Client-Server for Binary Data Transfer**
+Case 1: TCP Client-Server for Binary Data Transfer**
 - Overview
     This project implements a TCP client-server application in Python that transfers binary data over a local network. The client reads data from a specified source (simulated here as simple text) and sends it to the server, which listens for incoming connections and processes the received data.
 
