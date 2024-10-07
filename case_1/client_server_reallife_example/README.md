@@ -11,19 +11,19 @@ Python (standard libraries)
 PySerial library for serial communication
 
 ## Installation
-####Install the pyserial library to manage serial connections:
-pip install pyserial
+### Install the pyserial library to manage serial connections:
+    pip install pyserial
 
 ## Usage
 ### Server
-Create a file named server.py 
-Run the server script to start listening for incoming connections
-python server.py
-###Client
-1. Create a file named client.py 
-2. Update the client code with the correct serial port and server IP address.
-3. Run the client script to connect to the server and start sending real-time data:
-python client.py
+#### 1. Create a file named server.py 
+#### 2. Run the server script to start listening for incoming connections
+    python server.py
+### Client
+#### 1. Create a file named client.py 
+#### 2. Update the client code with the correct serial port and server IP address.
+#### 3. Run the client script to connect to the server and start sending real-time data:
+    python client.py
 
 ## How It Works
 The server listens for incoming TCP connections on 0.0.0.0:65432, allowing connections from any network interface.
